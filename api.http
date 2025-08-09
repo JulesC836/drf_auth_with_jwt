@@ -1,13 +1,10 @@
-# GET http://localhost:8001/posting/posts
-# Authorization: Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU0NDk0MTc0LCJpYXQiOjE3NTQ0OTM4NzQsImp0aSI6IjM3OTZjNmM2N2UyZDQzZjVhMmYwNGE1NzVmNTMwYzU0IiwidXNlcl9pZCI6IjIxIn0.PUkQ-shQzs5xLoQiuE_Q2r1CeHe3fYkoLpztOlwo7-I"
-
 # POST http://localhost:8000/register/
 # Content-Type: application/json
 
 # {
 #     "email":"jc10@email.com",
-#     "first_name":"jules",
-#     "last_name":"César",
+#     "first_name":"Jules",
+#     "last_name":"C",
 #     "gender":"M",
 #     "birthdate":"2004-09-09",
 #     "password":"mot_de_passe",
@@ -15,38 +12,15 @@
 
 # }
 
-POST http://localhost:8000/login/
-Content-Type: application/json
-
-{
-    "email":"jc10@email.com",
-    "username":"jc10@email.com",
-    "password":"mot_de_passe"
-}
-
-# POST  http://localhost:8000/api/token/
+# POST http://localhost:8000/login/
 # Content-Type: application/json
 
 # {
-    
-#     "username":"jc10@email.com",
 #     "email":"jc10@email.com",
+#     "username":"jc10@email.com",
 #     "password":"mot_de_passe"
 # }
 
-
-# POST http://localhost:8001/api/token/logout/ 
+# POST http://localhost:8001/logout/ 
 # Content-Type: application/json" 
-# Authorization: Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU0NDk2NTkxLCJpYXQiOjE3NTQ0OTYyOTEsImp0aSI6IjhhYWMyZDk3N2FlMzQyY2Y4Zjc5ZThkY2E4YzMyZjliIiwidXNlcl9pZCI6IjIxIn0.abv2T5800-Rz-bK0BIPfyOj1oJCl9MgDY-N0Ci_27_c" 
-
-# {
-#     "refresh":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1NDU4MjY5MSwiaWF0IjoxNzU0NDk2MjkxLCJqdGkiOiI5OWU4MGQxZjE0NGQ0MWQzYWNiNDBhYjFmYTY1ZDFiNiIsInVzZXJfaWQiOiIyMSJ9.e8YA2y-Hlxi23w0vCGhZDFNcUHtbVR291tVXUBXqGfI"
-# }
-
-# GET http://localhost:8000/posting/communities/
-# Content-Type: application/json
-# Authorization: Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzU0NjU5MzcyLCJpYXQiOjE3NTQ2NTkwNzIsImp0aSI6IjM0OWFjNDlhMzhlNzRjMGY4ZWFjNTFlYmQyYWVmZTQ4IiwidXNlcl9pZCI6IjIxIn0.Nnv2pXNsz1kGV8ywVbOV1f4x6pgnDAwaRFqI08kDJ9A"
-
-# # {
-# #     "refresh":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1NDU4MjY5MSwiaWF0IjoxNzU0NDk2MjkxLCJqdGkiOiI5OWU4MGQxZjE0NGQ0MWQzYWNiNDBhYjFmYTY1ZDFiNiIsInVzZXJfaWQiOiIyMSJ9.e8YA2y-Hlxi23w0vCGhZDFNcUHtbVR291tVXUBXqGfI"
-# # }
+# Authorization: Bearer "put_the_user_token_here" 
